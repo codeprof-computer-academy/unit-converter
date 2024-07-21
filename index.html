@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Converter</title>
+    <link rel="shortcut icon" href="logo.png">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="mobile.css">
+
+</head>
+<body>
+    <header>
+          <span class="brand"> <img src="logo.png" alt="" width="25">TCA</span>
+          <nav>
+                 <a href=""> <img src="home.png" alt="" width="16"> Home</a>
+                 <a href=""> <img src="about.png" alt="" width="16"> About App</a>
+                 <a href=""> <img src="card.png" alt="" width="16"> Donate</a>
+                 <a href=""> <img src="contact.png" alt="" width="16"> Contact</a>
+          </nav>
+
+          <div>
+                <b>Switch Theme</b>
+                <span class="theme-btn"><small class="theme-ball"></small></span>
+          </div>
+
+          <button class="menu-btn"></button>
+
+    </header>
+    <main>
+               <form>
+
+                  <div class="row">
+                       <span>
+                           <label>from unit</label>
+                            <select class="from-unit">
+                                <option value="">Choose Unit</option>
+                                <option value="cm">centimeter (cm)</option>
+                                <option value="m">meter (m)</option>
+                            </select>
+                       </span>
+
+                       <h1>⇋</h1>
+
+                       <span>
+                            <label>to unit</label>
+                                <select class="to-unit">
+                                    <option value="">Choose Unit</option>
+                                    <option value="cm">centimeter (cm)</option>
+                                    <option value="m">meter (m)</option>
+                                </select>
+                       </span>
+                  </div>
+                  <div class="row">
+                    <span>
+                         <label>Enter Value</label>
+                         <input type="text" class="user-input">
+                    </span>
+
+                    <h1>⇋</h1>
+
+                    <span>
+                        <label>Result</label>
+                        <input type="text" disabled class="result">
+                    </span>
+
+                  </div>
+                  <div class="row">
+                       <button type="submit">Convert →</button>
+                       <button type="reset">Reset →</button>
+                  </div>
+                       
+               </form>
+    </main>
+    <footer>
+        <p>&copy; Copyright 2024. All rights reserved. Powered by Codeprof Team.</p>
+    </footer>
+    
+    <script src="app.js"></script>
+</body>
+</html>
