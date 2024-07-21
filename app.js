@@ -20,6 +20,11 @@ function slide_theme_ball(){
      document.querySelector('body').classList.toggle("dark-theme-body")
      document.querySelector('header').classList.toggle("dark-theme-header")
      document.querySelector('form').classList.toggle("dark-theme-form")
+     document.querySelector('footer').classList.toggle("dark-theme-footer")
+     document.querySelector('.from-unit').classList.toggle("dark-theme-select")
+     document.querySelector('.to-unit').classList.toggle("dark-theme-select")
+     document.querySelector('.user-input').classList.toggle("dark-theme-input")
+     document.querySelector('.result').classList.toggle("dark-theme-input")
 }
 
 
